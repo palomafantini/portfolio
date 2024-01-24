@@ -329,16 +329,95 @@ button {
     background-color: #FBEAF1;
 }
 
+main {
+    padding: 10px;
+}
 
-  
-  
+.contenedor-cloud {
+    display: flex;
+    position: relative; 
+    justify-content: center;
+    
+}
 
+.portfolio-cloud {
+    width: 50%;
+    position: absolute;
+
+    
+}
+
+.text-cloud {
+    font-family: 'Sequel100Black-45';
+    color: #ffffff;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 30px;
+}
 
 
 
 
 
 /*PACKS*/
+
+.contenedor-title-packs {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.main-packs {
+    padding: 25px;
+} 
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 30px;
+
+}
+    
+.div1 { 
+    grid-area: 1 / 1 / 3 / 2; }
+.div2 { 
+    grid-area: 1 / 2 / 2 / 3; }
+.div3 { 
+    grid-area: 1 / 3 / 2 / 4; }
+.div4 { 
+    grid-area: 1 / 4 / 2 / 5; }
+.div5 { 
+    grid-area: 1 / 5 / 2 / 6; }
+.div6 { 
+    grid-area: 2 / 2 / 3 / 6; }
+
+.contenedor-categories {
+    margin-top: 100px;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1.5, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 15px;
+    margin-top: 35px;
+}
+        
+.div7 { 
+    grid-area: 1 / 1 / 2 / 2;
+    text-align: center;
+    
+}
+.div8 { 
+    grid-area: 2 / 1 / 3 / 2;
+    text-align: center;
+    width: 1300px;
+}
+
+
 
 /*SOBRE MI*/
 
@@ -348,10 +427,10 @@ button {
     color: #ED82AE;
 }
 
-.sobremi-img {
-    width: 190px;
-    height: 217px;
+.sobremi-main {
+    padding: 0;
 }
 
-
-  
+.sobremi-foto {
+    margin-top: 0px;
+}
